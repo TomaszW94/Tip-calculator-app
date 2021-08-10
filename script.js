@@ -23,6 +23,7 @@ let tipCalc = function() {
             return;
         }
         else if(bill>0 && tip>0 && numberOfPeople>0){
+            resetBtn.classList.remove('result__reset-btn--disable');
            let resultTip = (tip * bill)/numberOfPeople;
            let totalResult = (bill/numberOfPeople)+resultTip;
            msgError.textContent = ` `;
@@ -69,6 +70,7 @@ let tipCalc = function() {
         billInput.value = "";
         tipCustomInput.value = "";
         peopleInput.value = "";
+        resetBtn.classList.add('result__reset-btn--disable');
     }
     resetValues();
 }

@@ -266,6 +266,12 @@ button {
   padding: 0.4rem 0;
 }
 
+.result__reset-btn--disable {
+  cursor: not-allowed;
+  pointer-events: none;
+  background: #00575c;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -383,6 +389,13 @@ button {
   }
   .result__tip-amount, .result__total-price {
     font-size: 2rem;
+  }
+  .result__reset-btn {
+    -webkit-transition: background .3s;
+    transition: background .3s;
+  }
+  .result__reset-btn:hover {
+    background-color: #aaeee5;
   }
 }
 

@@ -199,6 +199,11 @@ button {
     font-weight: 600;
     color: $veryDarkCyan;
     padding: 0.4rem 0;
+    &--disable {
+      cursor: not-allowed;
+      pointer-events: none;
+      background: hsl(183, 100%, 18%);
+    }
   }
 }
 
@@ -295,6 +300,12 @@ button {
     &__tip-amount,
     &__total-price {
       font-size: 2rem;
+    }
+    &__reset-btn {
+      transition: background .3s;
+      &:hover{
+        background-color: hsl(172, 67%, 80%);
+      }
     }
   }
 }
