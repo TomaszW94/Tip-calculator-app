@@ -110,7 +110,7 @@ button {
 }
 
 .bill__input {
-  background: url(/images/icon-dollar.svg);
+  background: url(../images/icon-dollar.svg);
   background-repeat: no-repeat;
   background-color: #f4fafa;
   background-size: 15px;
@@ -190,7 +190,7 @@ button {
 }
 
 .number-of-people__input {
-  background: url(/images/icon-person.svg);
+  background: url(../images/icon-person.svg);
   background-repeat: no-repeat;
   background-color: #f4fafa;
   background-size: 15px;
